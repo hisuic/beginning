@@ -1,0 +1,43 @@
+i = 0
+
+while 5 > i:
+    print(i)
+    i += 1
+    
+akai = list(range(0,10,1))
+print(akai)
+
+aoi = ["aka","ao","kiiro","midori"]
+print(aoi)
+
+for kaka in range(0,4,1):
+    aoi.append(str(kaka))
+    
+print(aoi)
+
+data = {
+        "name":"kofu",
+        "age": "17",
+        "address": "japan"
+        }
+
+data["seiseki"] = "1"
+data["siryoku"] = "1.5"
+
+for ma in range(0,5,1):
+    if ma == 4:
+        break;
+    else:
+        print("DJ ENDRIU MUSIC IS STRONGEST")
+    
+    data[str(ma)] = str(ma + 5)
+    
+print(data["name"])
+print(data["age"])
+print(data["address"])
+print(data["seiseki"])
+print(data["siryoku"])
+
+for ja in range(0,4,1):
+    print(data[str(ja)])
+    
